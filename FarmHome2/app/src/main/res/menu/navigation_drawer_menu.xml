@@ -1,0 +1,38 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_letrero"
+            android:icon="@drawable/letrerodemadera"
+            android:title="Granja y Hotel" />
+        <item
+            android:id="@+id/item_navigation_drawer_plantita"
+            android:icon="@drawable/iconoplantita"
+            android:title="Plantas compra" />
+        <item
+            android:id="@+id/item_navigation_drawer_calendario"
+            android:icon="@drawable/iconocalendario"
+            android:title="Calendario de riego" />
+        <item
+            android:id="@+id/item_navigation_drawer_quimico"
+            android:icon="@drawable/iconoquimico"
+            android:title="Nosotros" />
+    </group>
+
+    <item android:title="Subheader">
+        <menu>
+            <item
+                android:id="@+id/item_navigation_drawer_settings"
+                android:icon="@drawable/iconoperfil"
+                android:title="Visitas" />
+            <item
+                android:id="@+id/item_navigation_drawer_help_and_feedback"
+                android:icon="@drawable/iconoseñalchica"
+                android:title="Contactanos" />
+        </menu>
+    </item>
+
+</menu>

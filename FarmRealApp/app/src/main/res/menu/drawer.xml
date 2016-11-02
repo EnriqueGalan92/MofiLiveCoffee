@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nosotros"
+            android:checked="false"
+            android:title="Nosotros"
+            android:icon="@drawable/iconoplantita"
+            >
+        </item>
+
+        <item
+            android:id="@+id/hotel"
+            android:checked="false"
+            android:title="Hotel Boutique"
+            android:icon="@drawable/Iconomadera"
+            >
+           </item>
+
+        <item
+            android:id="@+id/quimicos"
+            android:checked="false"
+            android:title="Químicos"
+            android:icon="@drawable/Iconoquimico"
+            >
+        </item>
+
+
+    </group>
+
+</menu>
